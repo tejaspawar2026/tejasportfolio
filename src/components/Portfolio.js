@@ -29,7 +29,7 @@ const Portfolio = () => {
         />
         <img src={robo} className="w-[70px] ml-5 animate-bounce" alt="robo_image" />
       </div>
-      <div className="flex flex-row justify-evenly gap-2 px-4 md:px-72">
+      <div className="flex flex-row justify-evenly px-4 md:px-[500px]">
         <button
           onClick={() => filterPortfolio("All")}
           className="border-purple-600 border-2 
@@ -40,15 +40,6 @@ const Portfolio = () => {
           All
         </button>
         <button
-          onClick={() => filterPortfolio("ui/ux")}
-          className="border-purple-600 border-2 
-            text-purple-600 focus:text-white
-            active:bg-purple-500 p-1 px-4 rounded-md
-            focus:ring-violet-300 focus:bg-purple-600 focus:ring "
-        >
-          UI/UX
-        </button>
-        <button
           onClick={() => filterPortfolio("website")}
           className="border-purple-600 border-2 
             text-purple-600 focus:text-white
@@ -56,15 +47,6 @@ const Portfolio = () => {
             focus:ring-violet-300 focus:bg-purple-600 focus:ring "
         >
           Web App
-        </button>
-        <button
-          onClick={() => filterPortfolio("mobile")}
-          className="border-purple-600 border-2 
-            text-purple-600 focus:text-white
-            active:bg-purple-500 p-1 px-4 rounded-md
-            focus:ring-violet-300 focus:bg-purple-600 focus:ring "
-        >
-          Mobile App
         </button>
       </div>
       <div

@@ -16,10 +16,7 @@ import android from './android.png'
 import react from './react.png'
 import wave from './wave.svg'
 import robo from './robo.png'
-import cognizantLogo from './cognizantLogo.png'
-import wellsLogo from './wells.png'
-import aflacLogo from './aflac.png'
-import wiuLogo from './wiu.png'
+import anviLogo from './anviLogo.jpg'
 import contactusbg from './contactusbg.png'
 import phone from './phone.png'
 import youtube from './youtube.png'
@@ -36,8 +33,15 @@ import linkdin from './LinkedIn.png'
 
 
 export {
-    logo,cognizantLogo,wellsLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
-    homeImage,aflacLogo,wiuLogo,
+    logo,
+    nodejs,
+    contactusbg,
+    phone,
+    youtube,
+    instagram,
+    facebook,
+    linkdin,
+    homeImage,
     book,
     laptop,
     skill,
@@ -50,6 +54,6 @@ export {
     mysql,
     react,
     wave,
-    robo
-
+    robo,
+    anviLogo
 }

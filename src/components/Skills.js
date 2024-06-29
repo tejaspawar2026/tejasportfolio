@@ -12,8 +12,8 @@ const Skills = () => {
           <span className="text-purple-600">{AppText.Experties}</span>
         </h1>
       </div>
-      <div className="flex flex-col md:flex-row  justify-evenly px-8 md:px-0 mt-8 ">
-        <div className="grid grid-cols-4 md:grid-cols-4 gap-8  items-center">
+      <div className="flex flex-col md:flex-row justify-evenly px-8 md:px-0 mt-8 items-center">
+        <div className="grid grid-cols-4 md:grid-cols-4 gap-8 items-center">
           {skillsList.map((item, index) => (
             <div
               className="w-[60px] transition ease-in-out delay-100 hover:scale-125 bg-purple-100
@@ -23,7 +23,7 @@ const Skills = () => {
             </div>
           ))}
         </div>
-        <div className="flex mt-5 flex-col justify-end  md:mt-0 lg:mt-0">
+        <div className="flex mt-5 flex-col justify-end md:mb-44 md:mt-0 lg:mt-0">
           {workDetail.map((item, index) => (
             <div className="flex flex-row mb-6">
               <div className="mr-10 font-bold">

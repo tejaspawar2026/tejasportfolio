@@ -21,7 +21,6 @@ const Home = () => {
                 strings: [
                   AppText.TejasPawar,
                   AppText.FrontedDeveloper,
-                  AppText.UIUXDesigner,
                   AppText.BackendDeveloper,
                 ],
                 autoStart: true,
