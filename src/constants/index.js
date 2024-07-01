@@ -1,5 +1,9 @@
-import { android, angular, facebook, firebase, instagram, ionic, linkdin, mysql,
-nodejs, react, typescript, anviLogo, youtube } from "../assets"
+import {
+    laravel, facebook, instagram, linkdin, mysql, nodejs, react, mongodb,
+    anviLogo, youtube, github, jira,
+    javascript, php, html, css,
+    tailwind
+} from "../assets"
 
 export const AppText={
     hello:'Hello,',
@@ -8,7 +12,7 @@ export const AppText={
     Me: 'Me',
     TejasPawar:'Tejas Pawar',
     introDescription:'I am a versatile software developer with experience in backend and frontend technologies. I am passionate about becoming a fullstack developer.',
-    aboutMeDescription:'I am software developer working in IT industry from  last 6 Years as Full stack developer. Expert in UI/UX design, Front-end  and Back-end Development',
+    aboutMeDescription:'I am a junior software developer with six months of hands-on experience as an intern, specializing in both frontend and backend development.',
     Skills:'Skills & ',
     Experties:'Experties',
     BackendDeveloper:'Backend Dev',
@@ -28,40 +32,30 @@ export const aboutSection=[
         id:1,
         image:'https://media.istockphoto.com/id/1304570729/vector/front-end-development-concept-vector-flat-graphic-design-illustration.jpg?s=612x612&w=0&k=20&c=0lpu0j-4FbuoA7xpGzt9apKZeI5F9KlNNe0qRYxjUYs=',
         title:'Frontend Developer',
-        desc:'Expert in UI/UX designing software like figma'
+        desc:'I specialize in creating dynamic and visually appealing web interfaces.'
     },
     {
         id:2,
         image:'https://img.freepik.com/premium-vector/back-end-developer-working-laptop_701961-1383.jpg?w=2000',
         title:'Back-end Developer',
-        desc:'Expert in UI/UX designing software like figma'
+        desc: 'I develop server-side logic and manage databases for web apps.'
+        
+        
     }
 ]
 
-export const skillsList=[
-    {
-        id:1,
-        icon:angular
-    },
+export const skillsList = [
     {
         id:1,
         icon:react
     },
     {
         id:1,
-        icon:typescript
+        icon:laravel
     },
     {
         id:1,
-        icon:firebase
-    },
-    {
-        id:1,
-        icon:android
-    },
-    {
-        id:1,
-        icon:ionic
+        icon:mongodb
     },
     {
         id:1,
@@ -69,23 +63,35 @@ export const skillsList=[
     },
     {
         id:1,
-        icon:react
-    },
-    {
-        id:1,
-        icon:typescript
-    },
-    {
-        id:1,
-        icon:firebase
-    },
-    {
-        id:1,
-        icon:android
-    },
-    {
-        id:1,
         icon:nodejs
+    },
+    {
+        id:1,
+        icon:github
+    },
+    {
+        id:1,
+        icon:jira
+    },
+    {
+        id:1,
+        icon:javascript
+    },
+    {
+        id:1,
+        icon:php
+    },
+    {
+        id:1,
+        icon:html
+    },
+    {
+        id:1,
+        icon:css
+    },
+    {
+        id:1,
+        icon:tailwind
     },
 
 ]
@@ -105,21 +111,21 @@ export const portfolio=[
         title:'Personal Portfolio Website',
         type:'ui/ux',
         desc:"Website Build using React to showcase the skills and work experiences",
-        imageUrl:"https://cdn.dribbble.com/users/4189231/screenshots/17343305/media/202173138f9504c2eacd16e70698312c.png?compress=1&resize=400x300"
+        imageUrl:"https://cdn.dribbble.com/userupload/15364116/file/original-821eb6411e477d52a386479dd7c8f929.png?resize=752x345&vertical=center"
     },
     {
         id:2,
         title:'E-Learning',
         type:'website',
         desc:"Web App Build using PHP and Laravel for easy students and teachers to connect and interact.",
-        imageUrl:"https://miro.medium.com/max/1400/0*GWvV5kcuVATUfs2r.png"
+        imageUrl:"https://cdn.dribbble.com/userupload/15364659/file/original-868feb2e1c1794e8ae25f36fa218a9c4.png?resize=752x359&vertical=center"
     },
     {
         id:3,
         title:'Virtual Noticeboard',
         type:'website',
         desc:"Web App Build using PHP Laravel and Bootstrap for posting information about the organization",
-        imageUrl:"https://miro.medium.com/max/1400/0*GWvV5kcuVATUfs2r.png"
+        imageUrl:"https://cdn.dribbble.com/userupload/15364696/file/original-aee2b3e93082234a516aa172e20301f7.png?resize=752x339&vertical=center"
     },
 ]
 

@@ -4,15 +4,17 @@ import book from './book.png'
 import laptop from './laptop.png'
 import skill from './skill.png'
 
-import angular from './angular.png'
-import ionic from './ionic.png'
-import firebase from './firebase.png'
-import typescript from './typescript.png'
+import laravel from './laravel.png'
+import javascript from './javascript.png'
+import html from './html.png'
+import css from './css.png'
+import tailwind from './tailwind.png'
+import php from './php.png'
+import jira from './jira.png'
+import github from './github.png'
+import mongodb from './mongodb.png'
 import mysql from './mysql.png'
 import nodejs from './nodejs.png'
-
-import gitlab from './gitlab.jpg'
-import android from './android.png'
 import react from './react.png'
 import wave from './wave.svg'
 import robo from './robo.png'
@@ -35,6 +37,13 @@ import linkdin from './LinkedIn.png'
 export {
     logo,
     nodejs,
+    github,
+    jira,
+    javascript,
+    tailwind,
+    html,
+    css,
+    php,
     contactusbg,
     phone,
     youtube,
@@ -45,12 +54,8 @@ export {
     book,
     laptop,
     skill,
-    angular,
-    typescript,
-    android,
-    gitlab,
-    ionic,
-    firebase,
+    laravel,
+    mongodb,
     mysql,
     react,
     wave,
