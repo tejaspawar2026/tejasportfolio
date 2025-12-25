@@ -50,47 +50,47 @@ export const skillsList = [
         icon:react
     },
     {
-        id:1,
+        id:2,
         icon:laravel
     },
     {
-        id:1,
+        id:3,
         icon:mongodb
     },
     {
-        id:1,
+        id:4,
         icon:mysql
     },
     {
-        id:1,
+        id:5,
         icon:nodejs
     },
     {
-        id:1,
+        id:6,
         icon:github
     },
     {
-        id:1,
+        id:7,
         icon:jira
     },
     {
-        id:1,
+        id:8,
         icon:javascript
     },
     {
-        id:1,
+        id:9,
         icon:php
     },
     {
-        id:1,
+        id:10,
         icon:html
     },
     {
-        id:1,
+        id:11,
         icon:css
     },
     {
-        id:1,
+        id:12,
         icon:tailwind
     },
 
@@ -108,20 +108,13 @@ export const workDetail=[
 export const portfolio=[
     {
         id:1,
-        title:'Personal Portfolio Website',
-        type:'ui/ux',
-        desc:"Website Build using React to showcase the skills and work experiences",
-        imageUrl:"https://cdn.dribbble.com/userupload/15364116/file/original-821eb6411e477d52a386479dd7c8f929.png?resize=752x345&vertical=center"
-    },
-    {
-        id:2,
         title:'E-Learning',
         type:'website',
         desc:"Web App Build using PHP and Laravel for easy students and teachers to connect and interact.",
         imageUrl:"https://cdn.dribbble.com/userupload/15364659/file/original-868feb2e1c1794e8ae25f36fa218a9c4.png?resize=752x359&vertical=center"
     },
     {
-        id:3,
+        id:2,
         title:'Virtual Noticeboard',
         type:'website',
         desc:"Web App Build using PHP Laravel and Bootstrap for posting information about the organization",
@@ -143,17 +136,17 @@ export const socialNetwork=[
         url:'https://www.instagram.com/tubeguruji/'
     },
     {
-        id:1,
+        id:2,
         logo:youtube,
         url:'https://www.youtube.com/channel/UC33Tc4FCgd_to314_b2hNTg',
     },
     {
-        id:1,
+        id:3,
         logo:linkdin,
         url:'https://www.linkedin.com/in/rahul-sanap-652920108/'
     },
     {
-        id:1,
+        id:4,
         logo:facebook,
         url:'https://www.facebook.com/rahul.sanap1'
     },
